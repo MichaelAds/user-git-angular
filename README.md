@@ -38,12 +38,17 @@ O projeto utiliza API do GIT para encontrar usuário, apresentar os repositorios
 Sistema em produção: <a href="https://search-user-git.vercel.app/" target="_blank">Search Git User</a>
 <img width="1667" alt="Screen Shot 2021-03-24 at 03 30 20" src="https://user-images.githubusercontent.com/30833118/112265450-469f0b80-8c51-11eb-80cb-4f28be32c585.png">
 
+> Utilizei no projeto a biblioteca <strong>RXJS</strong>, todas as chamadas são reativas, e utiliza o Patterns Observable.<br>
+> O componente 'repo-git' e 'starred-git', estão separados em modules utilizando <strong>Lazy-Loading</strong> para ser carregado apenas quando forem chamados, assim não é iniciado assim que o sistema sobe.
+
 ### Saber mais
 Caso queira saber mais sobre Angular:
 <ul>
   <li>Doc <a href="https://angular.io/docs" target="_blank">Angular</a></li>
   <li><a href="https://material.angular.io/" target="_blank">Angular Material</a></li>
   <li><a href="https://docs.github.com/pt/rest" target="_blank">Api GIT</a>
+  <li><a href="https://rxjs-dev.firebaseapp.com/" target="_blank">RXJS</a>
+  <li><a href="https://angular.io/guide/lazy-loading-ngmodules" target="_blank">Lazy Loading</a>
 </ul>
 
 
