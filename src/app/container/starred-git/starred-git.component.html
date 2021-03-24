@@ -1,0 +1,33 @@
+<section class="container">
+    <div class="star">
+        <div class="star__text">
+            <span>
+              star
+            </span>
+        </div>
+        <div class="star__count">
+            <span>
+            {{infoRepos.length}}
+          </span>
+        </div>
+    </div>
+    <div class="card">
+        <mat-card class="card__container" *ngFor="let repo of infoRepos">
+            <mat-card-header>
+                <mat-card-title>{{repo.name}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="body-card">
+                <p *ngIf="repo.description">
+                    <strong>Descrição:</strong> {{repo.description}}
+                </p>
+                <p>
+                    Fork: {{ repo.forks }}
+                </p>
+                <a [href]="repo.html_url" target="_blank">
+                    <strong>Link do Repositorio</strong>
+                </a>
+                <p>Criado por: {{ repo.owner_login }}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</section>

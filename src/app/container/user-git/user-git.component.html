@@ -1,0 +1,33 @@
+<div class="container" *ngIf="userGit">
+    <header>
+        <div class="info-user">
+            <img class="avatar" [src]="userGit.avatar_url" alt="">
+            <h1>{{userGit.name}}</h1>
+            <span><strong>{{userGit.login}} - {{userGit.bio}}</strong></span>
+            <span>{{userGit.company}}</span>
+            <span>{{userGit.blog}}</span>
+            <span>{{userGit.location}}</span>
+            <span>{{userGit.email}}</span>
+            <div class="container-button">
+                <button mat-stroked-button color="primary" [routerLink]="['/repos', userGit.login]">Repos</button>
+                <button mat-stroked-button color="accent" [routerLink]="['/starred', userGit.login]">Starred</button>
+            </div>
+        </div>
+        <div class="follow">
+            <div class="followers">
+                <h3>{{userGit.followers}}</h3>
+                <span>Seguidores</span>
+            </div>
+
+            <div class="following">
+                <h3>{{userGit.following}}</h3>
+                <span>Seguindo</span>
+            </div>
+            <div class="public-repos">
+                <h3>{{userGit.public_repos}}</h3>
+                <span>Repositorios</span>
+            </div>
+        </div>
+    </header>
+
+</div>

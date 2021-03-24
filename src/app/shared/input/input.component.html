@@ -1,0 +1,11 @@
+<form class="search-form" [formGroup]="inputSearch" (ngSubmit)="ngSubmit()">
+    <mat-form-field class="search-input">
+        <mat-label>Buscar Usuário Git</mat-label>
+        <input matInput formControlName="search">
+        <mat-error *ngIf="messageError">
+            {{messageError}}
+        </mat-error>
+    </mat-form-field>
+
+    <button type="submit" mat-flat-button color="primary">Buscar</button>
+</form>

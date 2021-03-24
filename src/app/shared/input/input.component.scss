@@ -1,0 +1,12 @@
+.search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .search-input {
+        width: 60%;
+    }
+    button {
+        margin-left: 20px;
+    }
+}
