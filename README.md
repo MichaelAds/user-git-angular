@@ -10,7 +10,7 @@
 
 ## Como usar
 
-Para rodar o projeto deve ter instalado em sua maquina o <a href="https://nodejs.org/en/">NodeJs</a>.
+Para rodar o projeto deve ter instalado em sua maquina o <a href="https://nodejs.org/en/" target="_blank">NodeJs</a>.
 Com o NodeJs instalado basta rodar o comando:
 ```shell
 npm install
@@ -35,15 +35,15 @@ Esse comando vai iniciar um servidor para rodar o codigo em ambiente local e log
 
 ## Projeto
 O projeto utiliza API do GIT para encontrar usuário, apresentar os repositorios e arquivos com estrelas.
-Sistema em produção: <a href="https://search-user-git.vercel.app/">Search Git User</a>
+Sistema em produção: <a href="https://search-user-git.vercel.app/" target="_blank">Search Git User</a>
 <img width="1667" alt="Screen Shot 2021-03-24 at 03 30 20" src="https://user-images.githubusercontent.com/30833118/112265450-469f0b80-8c51-11eb-80cb-4f28be32c585.png">
 
 ### Saber mais
 Caso queira saber mais sobre Angular:
 <ul>
-  <li>Doc <a href="https://angular.io/docs">Angular</a></li>
-  <li><a href="https://material.angular.io/">Angular Material</a></li>
-  <li><a href="https://docs.github.com/pt/rest">Api GIT</a>
+  <li>Doc <a href="https://angular.io/docs" target="_blank">Angular</a></li>
+  <li><a href="https://material.angular.io/" target="_blank">Angular Material</a></li>
+  <li><a href="https://docs.github.com/pt/rest" target="_blank">Api GIT</a>
 </ul>
 
 
