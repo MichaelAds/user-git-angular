@@ -45,4 +45,5 @@ Caso queira saber mais sobre Angular:
   <li><a href="https://material.angular.io/">Angular Material</a></li>
   <li><a href="https://docs.github.com/pt/rest">Api GIT</a>
 </ul>
-##### by Michael 
+
+
