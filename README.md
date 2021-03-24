@@ -5,9 +5,10 @@
  <ul>
   <li>Angular</li>
   <li>Angular Material</li>
+  <li>RXJS</li>
 </ul>
 
-## Installing / Getting started
+## Como usar
 
 Para rodar o projeto deve ter instalado em sua maquina o <a href="https://nodejs.org/en/">NodeJs</a>.
 Com o NodeJs instalado basta rodar o comando:
